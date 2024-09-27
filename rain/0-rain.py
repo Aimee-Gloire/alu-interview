@@ -30,4 +30,4 @@ def rain(walls):
     for i in range(0, n):
         total_volume += min(highest_left[i], highest_right[i]) - walls[i]
 
-    return total_volume
+    return total_volume 
