@@ -2,7 +2,6 @@
 """Module for the rain function
 """
 
-
 def rain(walls):
     """Function to find the maximum rain collected
     by a series of walls
@@ -30,4 +29,4 @@ def rain(walls):
     for i in range(0, n):
         total_volume += min(highest_left[i], highest_right[i]) - walls[i]
 
-    return total_volume 
+    return total_volume
